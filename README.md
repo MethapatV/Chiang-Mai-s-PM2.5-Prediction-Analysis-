@@ -11,10 +11,15 @@ This project investigates air quality in Chiang Mai, Thailand, by predicting PM2
   - Training set: data before 2022
   - Testing set: data from 2022 onward
 
-## PM2.5 Actual vs Predicted
-![PM2.5 Prediction]("download.png")
-**Evaluation Metrics:**
+## ⚙️ Model Details
+- **Algorithm:** XGBoost Regressor
+- **Evaluation Metrics:**
   - RMSE: 13.76
   - MAE: 6.27
   - MAPE: 16.80%
   - MSE: 189.41
+
+## 🔍 Key Insights
+- Strong seasonal pattern: PM2.5 peaks in early months of each year
+- Humidity shows a **negative correlation** with PM2.5. This suggests that as humidity increases, there is a tendency for PM 2.5 concentrations to decrease.
+- Predictions slightly underestimate values after Feb 2023, likely due to external/unseen events
