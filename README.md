@@ -12,7 +12,7 @@ This project investigates air quality in Chiang Mai, Thailand, by predicting PM2
   - Testing set: data from 2022 onward
 
 ## Model Details
-![PM2.5 Prediction](images/pm25_prediction_plot.png)
+![PM2.5 Prediction](https://github.com/MethapatV/Chiang-Mai-s-PM2.5-Prediction-Analysis-/blob/main/download.png?raw=true)
 - **Algorithm:** XGBoost Regressor
 - **Evaluation Metrics:**
   - RMSE: 13.76
