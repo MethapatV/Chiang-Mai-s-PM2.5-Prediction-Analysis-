@@ -12,7 +12,7 @@ This project investigates air quality in Chiang Mai, Thailand, by predicting PM2
   - Testing set: data from 2022 onward
 
 ## PM2.5 Actual vs Predicted
-![PM2.5 Prediction]("C:\Users\ongmtp\Pictures\download.png")
+![PM2.5 Prediction]("download.png")
 **Evaluation Metrics:**
   - RMSE: 13.76
   - MAE: 6.27
