@@ -11,14 +11,12 @@ This project investigates air quality in Chiang Mai, Thailand, by predicting PM2
   - Training set: data before 2022
   - Testing set: data from 2022 onward
 
-## Model Details
-![PM2.5 Prediction](https://github.com/MethapatV/Chiang-Mai-s-PM2.5-Prediction-Analysis-/blob/main/download.png?raw=true)
+## Model Detail
 - **Algorithm:** XGBoost Regressor
-- **Evaluation Metrics:**
-  - RMSE: 13.76
-  - MAE: 6.27
-  - MAPE: 16.80%
-  - MSE: 189.41
+
+## PM 2.5 Prediction
+![PM2.5 Prediction](https://github.com/MethapatV/Chiang-Mai-s-PM2.5-Prediction-Analysis-/blob/main/download.png?raw=true)
+The XGBoost model predicted PM2.5 levels in Chiang Mai with good initial accuracy, closely matching actual values. However, after February 2023, predictions slightly underestimated PM2.5 levels. Evaluation metrics showed solid performance, with an **RMSE of 13.76**, **MSE of 189.41**, **MAE of 6.27**, and **MAPE of 16.80%**, confirming the model’s reliability. Unfortunately, the prediction is slightly underestimate values after Feb 2023, likely due to external/unseen events.
 
 ## Key Insights
 - Strong seasonal pattern: PM2.5 peaks in early months of each year
